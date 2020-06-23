@@ -20,6 +20,15 @@ rollButton.addEventListener('click', function () {
         // cont += 1
 
     }
+
+    let index = 0
+    let sum = 0
+    while ( index < diceRolls.length){
+        sum += diceRolls[index]
+        index += 1
+    }
+    console.log(sum)
+    
     console.log(diceRolls)
     // console.log(total)
     // totalNum.innerHTML=total
